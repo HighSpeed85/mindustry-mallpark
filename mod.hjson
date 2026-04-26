@@ -1,4 +1,5 @@
 name: mallpark
+main: mallpark.Mallpark
 displayName: "Malldustry"
 author: HighSpeed85
 description:
