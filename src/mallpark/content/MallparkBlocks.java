@@ -209,23 +209,23 @@ public class MallparkBlocks{
 		
 		// region WALLS
 		copperWallHuge = new Wall("copper-wall-huge"){{
-			requirements(Category.defense, ItemStack.mult(copperWall.requirements, 9));
+			requirements(Category.defense, ItemStack.mult(Blocks.copperWall.requirements, 9));
 			health = 320 * 9;
 			size = 3;
 		}};
 		copperWallGigantic = new Wall("copper-wall-gigantic"){{
-			requirements(Category.defense, ItemStack.mult(copperWall.requirements, 16));
+			requirements(Category.defense, ItemStack.mult(Blocks.copperWall.requirements, 16));
 			health = 320 * 16;
 			size = 4;
 		}};
 		
 		titaniumWallHuge = new Wall("titanium-wall-huge"){{
-			requirements(Category.defense, ItemStack.mult(titaniumWall.requirements, 9));
+			requirements(Category.defense, ItemStack.mult(Blocks.titaniumWall.requirements, 9));
 			health = 440 * 9;
 			size = 3;
 		}};
 		titaniumWallGigantic = new Wall("titanium-wall-gigantic"){{
-			requirements(Category.defense, ItemStack.mult(titaniumWall.requirements, 16));
+			requirements(Category.defense, ItemStack.mult(Blocks.titaniumWall.requirements, 16));
 			health = 440 * 16;
 			size = 4;
 		}};

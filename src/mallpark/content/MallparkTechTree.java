@@ -9,7 +9,7 @@ import static mindustry.content.Blocks.*;
 import static mindustry.content.TechTree.*;
 import static mindustry.content.UnitTypes.*;
 
-import static mallpark.content.Blocks.*;
+import static mallpark.content.MallparkBlocks.*;
 
 public class MallparkTechTree {
 	static TechNode context = null;
