@@ -1,5 +1,9 @@
 package mallpark;
 
+import arc.*;
+import arc.func.*;
+import arc.struct.*;
+import arc.util.*;
 import mindustry.*;
 import mindustry.mod.*;
 import mindustry.type.*;
