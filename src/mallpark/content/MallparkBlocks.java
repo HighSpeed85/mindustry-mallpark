@@ -4,6 +4,7 @@ import arc.graphics.*;
 import arc.math.*;
 import arc.struct.*;
 import mindustry.*;
+import mindustry.content.*;
 import mindustry.entities.*;
 import mindustry.entities.abilities.*;
 import mindustry.entities.bullet.*;
@@ -38,7 +39,7 @@ import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.type.ItemStack.*;
-import static mindustry.content.*;
+
 
 import static mallpark.Mallpark.*;
 
