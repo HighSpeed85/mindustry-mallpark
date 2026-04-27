@@ -12,7 +12,6 @@ import static mindustry.content.UnitTypes.*;
 import static mallpark.content.MallparkBlocks.*;
 
 public class MallparkTechTree {
-	@Override
 	public static void load(){
 		node(copperWallLarge, () -> {
 			node(copperWallHuge, () -> {
