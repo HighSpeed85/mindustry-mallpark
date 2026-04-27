@@ -17,8 +17,11 @@ public class Mallpark extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading content...");
+		Log.info("Loading Mallpark content...");
+        Log.info("Loading Mallpark blocks...");
 		MallparkBlocks.load();
+		Log.info("Loading Mallpark tech tree nodes...");
+		MallparkTechTree.load();
     }
 
 }
