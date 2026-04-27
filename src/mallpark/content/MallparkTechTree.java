@@ -14,6 +14,7 @@ import static mallpark.content.MallparkBlocks.*;
 public class MallparkTechTree {
 	static TechNode context = null;
 	
+	@Override
 	public static void load(){
 		node(copperWallLarge, () -> {
 			node(copperWallHuge, () -> {
