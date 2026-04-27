@@ -53,7 +53,7 @@ public class MallparkBlocks{
 	revolution,
 	
 	// walls
-	copperWallHuge, copperWallGigantic;
+	copperWallHuge, copperWallGigantic, titaniumWallHuge, titaniumWallGigantic;
 	
 	
 	
