@@ -12,22 +12,32 @@ import static mindustry.content.UnitTypes.*;
 import static mallpark.content.MallparkBlocks.*;
 
 public class MallparkTechTree {
+	static TechTree.TechNode context = null;
+	
 	public static void load(){
-		node(copperWallLarge, () -> {
+		
+		vanillaNode(copperWallLarge, () -> {
 			node(copperWallHuge, () -> {
 				node(copperWallGigantic);
 			});
 		});
 		
-		node(titaniumWallLarge, () -> {
+		vanillaNode(titaniumWallLarge, () -> {
 			node(titaniumWallHuge, () -> {
 				node(titaniumWallGigantic);
 			});
 		});
 		
-		node(mechanicalDrill, () -> {
+		vanillaNode(mechanicalDrill, () -> {
 			node(compactDrill);
 		});
 	}
+	
+	// ripped from BetaMindy until i find a more 'vanilla' solution
+	private static void vanillaNode(UnlockableContent parent, Runnable children){
+        context = TechTree.all.find(t -> t.content == parent);
+        if(context != null){
+            children.run();
+        }
+    }
 }
-		
