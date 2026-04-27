@@ -1,0 +1,12 @@
+{
+  "name": "mallpark",
+  "main": "mallpark.Mallpark",
+  "displayName": "Malldustry",
+  "author": "HighSpeed85",
+  "description": "Mallpark Research & Development presents various interplanetary products, as requested by various customers, or as experiments designed to test the market.\n\n[red[]]This is a pretty small, crappy and unbalanced mod. Anyway-",
+  "version": "2025.05.03",
+  "minGameVersion": "146",
+  "subtitle": "build first, balance later",
+  "hidden": false,
+  "repo": "HighSpeed85/mindustry-mallpark",
+}
