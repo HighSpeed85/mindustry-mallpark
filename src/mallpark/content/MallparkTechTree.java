@@ -1,6 +1,7 @@
 package mallpark.content;
 
 import arc.struct.*;
+import mindustry.content.*;
 import mindustry.game.Objectives.*;
 import mindustry.type.*;
 
