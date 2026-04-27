@@ -38,7 +38,7 @@ import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.type.ItemStack.*;
-import static mindustry.content
+import static mindustry.content.*;
 
 import static mallpark.Mallpark.*;
 
@@ -67,6 +67,7 @@ public class MallparkBlocks{
 			itemCapacity = 3;
 			envDisabled = Env.space;
 			consumeLiquid(Liquids.water, 0.02f).boost();
+		}}
 		// endregion
 		
 		// region TURRETS
@@ -85,7 +86,7 @@ public class MallparkBlocks{
 					3f,0f,0f,
 					-3f,0f,0f,
 				};
-			}}
+			}};
 			shootY = 11f;
 			shootSound = Sounds.shootSalvo; // temporary ig
 			drawer = new DrawTurret(){{
@@ -127,7 +128,7 @@ public class MallparkBlocks{
 						backColor = Pal.plastaniumBack;
 						frontColor = Pal.plastaniumFront;
 						despawnEffect = Fx.none;
-					}}
+					}};
 					lifetime = 40f;
 					shootEffect = Fx.shootBig;
 					ammoMultiplier = 4f;
@@ -149,7 +150,7 @@ public class MallparkBlocks{
 						backColor = Pal.glassAmmoBack;
 						frontColor = Pal.glassAmmoFront;
 						despawnEffect = Fx.none;
-					}}
+					}};
 					lifetime = 40f;
 					shootEffect = Fx.shootSmall;
 					reloadMultiplier = 0.8f;
@@ -178,7 +179,7 @@ public class MallparkBlocks{
 					ammoMultiplier = 5f;
 					lightning = 2;
 					lightningLength = 5;
-					lightningLengthRand: 2
+					lightningLengthRand = 2
 					reloadMultiplier = 0.9f;
 					splashDamage = 75f;
 					splashDamageRadius = 38f;
@@ -186,7 +187,7 @@ public class MallparkBlocks{
 					statusDuration = 10f;
 					backColor = Pal.surgeAmmoBack;
 					frontColor = Pal.surgeAmmoFront;
-				}}
+				}},
 				Items.blastCompound, new BasicBulletType(6f,8){{
 					width = 6f;
 					height = 6f;
