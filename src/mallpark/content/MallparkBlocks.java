@@ -67,7 +67,7 @@ public class MallparkBlocks{
 			itemCapacity = 3;
 			envDisabled = Env.space;
 			consumeLiquid(Liquids.water, 0.02f).boost();
-		}}
+		}};
 		// endregion
 		
 		// region TURRETS
@@ -179,7 +179,7 @@ public class MallparkBlocks{
 					ammoMultiplier = 5f;
 					lightning = 2;
 					lightningLength = 5;
-					lightningLengthRand = 2
+					lightningLengthRand = 2;
 					reloadMultiplier = 0.9f;
 					splashDamage = 75f;
 					splashDamageRadius = 38f;
