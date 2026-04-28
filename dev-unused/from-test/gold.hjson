@@ -1,0 +1,5 @@
+name: Gold
+description: "Used as a currency and in electrical components."
+hardness: 1
+cost: 1.3
+color: d4af37

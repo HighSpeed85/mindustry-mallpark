@@ -1,0 +1,18 @@
+name: Roboty
+description: Fires nothing at enemy targets. Completely immobile. (bfdi reference wow)
+health: 500
+speed: 0
+rotateSpeed: 0
+accel: 0
+hitSize: 9.5
+drownTimeMultiplier: 0.66
+itemCapacity: 6
+payloadCapacity: 0
+faceTarget: false
+canDrown: true
+hittable: true
+killable: true
+isEnemy: true
+flying: false
+canAttack: false
+outlineColor: 820000

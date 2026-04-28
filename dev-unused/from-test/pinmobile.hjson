@@ -1,0 +1,10 @@
+type: tank
+name: Pinmobile
+description: Drills into enemies, shocking them in the process, and also burns them. WORK IN PROGRESS. im not going back
+hitSize: 16
+health: 500
+weapons: [
+	name: pinmobile-drill
+	rotate: false
+	mirror: false
+]
