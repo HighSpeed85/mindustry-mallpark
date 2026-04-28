@@ -1,0 +1,196 @@
+category: turret
+type: ItemTurret
+name: Revolution
+description: "Fires a barrage of bullets at enemies."
+health: 1440
+size: 3
+requirements: [
+	copper/200
+	titanium/150
+	plastanium/100
+]
+consumes: {
+	coolant: {
+		amount: 0.5
+	}
+}
+coolantMultiplier: 6
+hasLiquids: true
+liquidCapacity: 25
+range: 240
+inaccuracy: 3
+reload: 4
+shoot: {
+	type: ShootBarrel
+	barrels: [
+	0,1,0,
+    3,0,0,
+    -3,0,0,
+	]
+}
+shootY: 11
+shootSound: shootAlt
+drawer: {
+	type: DrawTurret
+	parts: [
+		{
+			type: RegionPart
+			suffix: -barrel-1
+			mirror: false
+			under: true
+			progress: recoil
+			moveY: -1
+			recoilIndex: 0
+		}
+		{
+			type: RegionPart
+			suffix: -barrel-2
+			mirror: false
+			under: true
+			progress: recoil
+			moveY: -1
+			recoilIndex: 2
+		}
+		{
+			type: RegionPart
+			suffix: -barrel-3
+			mirror: false
+			under: true
+			progress: recoil
+			moveY: -1
+			recoilIndex: 1
+		}
+	]
+}
+maxAmmo: 40
+recoils: 3
+recoil: 0.8
+rotatespeed: 2.25
+ammoTypes:
+{
+	copper: {
+		width: 4
+		height: 9
+		type: BasicBulletType
+		speed: 6
+		damage: 2
+		shootEffect: shootSmall
+		sprite: bullet
+		lifetime: 40
+		ammoMultiplier: 6
+		shootEffect: shootSmall
+		collidesGround: true
+		collidesAir: true
+	}
+	plastanium: {
+		width: 6
+		height: 6
+		speed: 6
+		damage: 8
+		type: BasicBulletType
+		fragBullet: {
+			width: 10
+            height: 12
+            shrinkY: 1
+			speed: 2.5
+            lifetime: 15
+            backColor: d8d97f
+            frontColor: fffac6
+            despawnEffect: none
+		}
+		fragBullets: 8
+		sprite: bullet
+		lifetime: 40
+		shootEffect: shootBig
+		ammoMultiplier: 4
+		splashDamage: 40
+		hitEffect: plasticExplosion
+		splashDamageRadius: 24
+		backColor: d8d97f
+        frontColor: fffac6
+		collidesGround: true
+		collidesAir: true
+	}
+	metaglass: {
+		width: 5
+		height: 8
+		speed: 6
+		damage: 6
+		type: BasicBulletType
+		fragBullet: {
+			width: 5
+            height: 12
+            shrinkY: 1
+            lifetime: 20
+			speed: 3
+            backColor: 454545
+            frontColor: ffffff
+            despawnEffect: none
+		}
+		fragBullets: 4
+		sprite: bullet
+		lifetime: 40
+		shootEffect: shootSmall
+		reloadMultiplier: 0.8
+		ammoMultiplier: 3
+		splashDamage: 40
+		splashDamageRadius: 24
+		collidesGround: true
+		collidesAir: true
+	}
+	graphite: {
+		width: 6
+		height: 8
+		type: BasicBulletType
+		speed: 6
+		damage: 6
+		shootEffect: shootSmall
+		sprite: bullet
+		lifetime: 40
+		ammoMultiplier: 4
+		shootEffect: shootSmall
+		splashDamage: 20
+		splashDamageRadius: 8
+		collidesGround: true
+		collidesAir: true
+	}
+	surge-alloy: {
+		width: 6
+		height: 6
+		speed: 6
+		damage: 13
+		type: BasicBulletType
+		sprite: bullet
+		lifetime: 40
+		shootEffect: shootBig
+		ammoMultiplier: 5
+		lightning: 2
+        lightningLength: 5
+		lightningLengthRand: 2lightningLengthRand: 2
+		reloadMultiplier: 0.9
+		splashDamage: 75
+		splashDamageRadius: 38
+		collidesGround: true
+		collidesAir: true
+		status: shocked
+		statusDuration: 10
+	}
+	blast-compound: {
+		width: 6
+		height: 6
+		speed: 6
+		damage: 8
+		type: BasicBulletType
+		sprite: bullet
+		lifetime: 40
+		shootEffect: shootBig
+		reloadMultiplier: 0.75
+		ammoMultiplier: 4
+		splashDamage: 40
+		splashDamageRadius: 75
+		collidesGround: true
+		collidesAir: true
+		status: blasted
+		statusDuration: 60
+	}
+}

@@ -1,0 +1,22 @@
+category: production
+type: Drill
+name: Compact Drill
+description: A smaller drill for use in hard to reach crevices. Only capable of mining the most basic resources.
+tier: 1
+size: 1
+itemCapacity: 3
+drillTime: 600
+drawRim: false
+research: mechanical-drill
+envDisabled: 2
+consumes: {
+	liquid: {
+		liquid: water
+		amount: 0.02
+		optional: true
+		booster: true
+	}
+}
+requirements: [
+	copper/3
+]
