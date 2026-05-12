@@ -1,0 +1,32 @@
+name: bug report
+about: report a bug in a bug report so the bug is reported in a bug report
+title: '(Bug): <title>'
+labels: ["bug"]
+assignees: HighSpeed85
+body: 
+- type: textarea
+  attributes:
+    label: Describe the bug:
+    description: A clear and concise description of what the bug is.
+  validations:
+				required: true
+- type: textarea
+  attributes:
+    label: To reproduce:
+    description: Steps to reproduce the bug:
+				value: "1."
+  validations:
+				required: true
+- type: textarea
+  attributes:
+    label: Expected behaviour:
+    description: What do you think is supposed to happen?
+  validations:
+				required: true
+- type: upload
+  attributes:
+    label: Upload relevant files
+    description: "Drag and drop any relevant screenshots or log files."
+  validations:
+    required: false
+    accept: ".png,.jpg,.gif,.log,.txt,.zip"
