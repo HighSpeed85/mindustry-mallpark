@@ -14,9 +14,9 @@ body:
   attributes:
     label: To Reproduce
     description: Steps to reproduce the bug.
-		value: "1."
+      value: "1."
   validations:
-	required: true
+    required: true
 - type: textarea
   attributes:
     label: Expected Behaviour
