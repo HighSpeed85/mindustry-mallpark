@@ -3,11 +3,19 @@ description: Report a bug in a bug report so the bug is reported in a bug report
 title: "(Bug): <title>"
 labels: ["bug"]
 assignees: HighSpeed85
-body: 
+body:
+  - type: input
+    id: ver
+    attributes:
+      label: Mod Version
+      description: "What version of the mod is the bug happening on?"
+      placeholder: "vYEAR.MONTH.DAY.IDK"
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Bug Description
-      description: A clear and concise description of what the bug is.
+      description: A detailed and clear description of what the bug is.
     validations:
       required: true
   - type: textarea
@@ -16,7 +24,8 @@ body:
       description: "How did this bug happen? Include detailed steps."
       value: |
         1.
-        ...
+        2.
+        3.
     validations:
       required: true
   - type: textarea
