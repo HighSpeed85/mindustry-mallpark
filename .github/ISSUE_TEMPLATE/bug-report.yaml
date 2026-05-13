@@ -4,29 +4,29 @@ title: '(Bug): <title>'
 labels: ["bug"]
 assignees: HighSpeed85
 body: 
-- type: textarea
-  attributes:
-    label: Bug Description
-    description: A clear and concise description of what the bug is.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: How to replicate
-    description: "How did this bug happen? Include detailed steps."
-      value: "1."
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Expected Behaviour
-	description: What do you think is supposed to happen?
-  validations:
-    required: true
-- type: upload
-  attributes:
-    label: Upload relevant files
-	description: "Drag and drop any relevant screenshots or log files."
-  validations:
-    required: false
-    accept: ".png,.jpg,.gif,.log,.txt,.zip"
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to replicate
+      description: "How did this bug happen? Include detailed steps."
+        value: "1."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behaviour
+      description: What do you think is supposed to happen?
+    validations:
+      required: true
+  - type: upload
+    attributes:
+      label: Upload relevant files
+      description: "Drag and drop any relevant screenshots or log files."
+    validations:
+      required: false
+      accept: ".png,.jpg,.gif,.log,.txt,.zip"
