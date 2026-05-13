@@ -1,0 +1,28 @@
+name: Feature Request
+description: Request a feature in a feature request so the feature is requested in a feature request
+title: "(Request): <title>"
+labels: ["feature"]
+assignees: HighSpeed85
+body:
+  - type: checkbox
+    attributes:
+      label: Checklist
+      description: Boxes that you can check. Almost like some sort of... checkbox...
+      options:
+        - label: "I hereby declare that I have checked that my suggestion is not included in the mod, or in vanilla Mindustry.
+          required: true
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: Details of what feature or content you want added to the mod.
+    validations:
+      required: true
+  - type: upload
+    attributes:
+      label: Upload relevant files
+      description: "Add relevant files you might want me to use. May not be used in their uploaded form."
+    validations:
+      required: false
+      accept: ".zip,.gz,.pdf,.docx,.png,.jpg,.jpeg,.gif,.svg,.webp,.mp4,.mov,.webm,.json,.py,.js,.ts,.log,.txt,.csv"
