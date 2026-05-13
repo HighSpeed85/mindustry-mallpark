@@ -1,4 +1,4 @@
-name: Bundle Error
+name: Bundle Issue
 description: "Typos, translations errors, missing translations, requests for new languages, etc."
 title: "(Language Error): <title>"
 labels: ["bug","bundle"]
