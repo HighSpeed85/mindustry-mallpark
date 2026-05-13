@@ -14,7 +14,7 @@ body:
     attributes:
       label: "How to replicate"
       description: "How did this bug happen? Include detailed steps."
-        value: |
+      value: |
         1.
         ...
     validations:
@@ -31,4 +31,3 @@ body:
       description: "Drag and drop any relevant screenshots or log files."
     validations:
       required: false
-      accept: ".png,.jpg,.gif,.log,.txt,.zip"
