@@ -1,5 +1,5 @@
 name: bug report
-about: report a bug in a bug report so the bug is reported in a bug report
+description: report a bug in a bug report so the bug is reported in a bug report
 title: '(Bug): <title>'
 labels: ["bug"]
 assignees: HighSpeed85
@@ -12,7 +12,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: How To Replicate
+    label: How to replicate
     description: "How did this bug happen? Include detailed steps."
       value: "1."
   validations:
