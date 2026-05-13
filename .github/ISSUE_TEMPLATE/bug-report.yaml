@@ -9,7 +9,7 @@ body:
     label: Bug Description
     description: A clear and concise description of what the bug is.
   validations:
-	required: true
+    required: true
 - type: textarea
   attributes:
     label: To Reproduce
@@ -20,13 +20,13 @@ body:
 - type: textarea
   attributes:
     label: Expected Behaviour
-    description: What do you think is supposed to happen?
+	description: What do you think is supposed to happen?
   validations:
-	required: true
+    required: true
 - type: upload
   attributes:
     label: Upload relevant files
-    description: "Drag and drop any relevant screenshots or log files."
+	description: "Drag and drop any relevant screenshots or log files."
   validations:
     required: false
     accept: ".png,.jpg,.gif,.log,.txt,.zip"
