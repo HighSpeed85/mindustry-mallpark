@@ -9,7 +9,7 @@ body:
     attributes:
       label: Mod Version
       description: "What version of the mod is the bug happening on?"
-      placeholder: "vYEAR.MONTH.DAY.IDK"
+      placeholder: "syntax is vYEAR.MONTH.DAY.IDK"
     validations:
       required: true
   - type: textarea
