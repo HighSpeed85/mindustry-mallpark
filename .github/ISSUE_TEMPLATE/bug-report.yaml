@@ -1,5 +1,5 @@
-name: bug report
-description: report a bug in a bug report so the bug is reported in a bug report
+name: Bug Report
+description: Report a bug in a bug report so the bug is reported in a bug report
 title: "(Bug): <title>"
 labels: ["bug"]
 assignees: HighSpeed85
