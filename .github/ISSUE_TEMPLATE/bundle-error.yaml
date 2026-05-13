@@ -1,5 +1,5 @@
-name: bundle error
-description: "typos, translations errors, missing translations, requests for new languages, they can all go here."
+name: Bundle Error
+description: "Typos, translations errors, missing translations, requests for new languages, etc."
 title: "(Language Error): <title>"
 labels: ["bug","bundle"]
 assignees: HighSpeed85
