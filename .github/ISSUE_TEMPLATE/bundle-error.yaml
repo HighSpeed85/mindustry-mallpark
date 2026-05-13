@@ -1,0 +1,20 @@
+name: bundle error
+description: "typos, translations errors, missing translations, requests for new languages, they can all go here."
+title: "(Language Error): <title>"
+labels: ["bug","bundle"]
+assignees: HighSpeed85
+body: 
+  - type: input
+    id: lang
+    attributes:
+      label: "Language"
+      description: "Which language is this issue related to?"
+      placeholder: "Enter in a language."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "Describe the issue in detail. Include the intended solution. For example, if something's translated wrong, describe what's wrong and, if known, what should be correct. If requesting a new language, simply say so."
+    validations:
+      required: true
