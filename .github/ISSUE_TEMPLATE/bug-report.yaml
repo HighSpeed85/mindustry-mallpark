@@ -14,7 +14,7 @@ body:
   attributes:
     label: How To Replicate
     description: "How did this bug happen? Include detailed steps."
-	  value: "1."
+      value: "1."
   validations:
     required: true
 - type: textarea
