@@ -12,9 +12,9 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: To Reproduce
-    description: Steps to reproduce the bug.
-      value: "1."
+    label: How To Replicate
+    description: "How did this bug happen? Include detailed steps."
+	  value: "1."
   validations:
     required: true
 - type: textarea
