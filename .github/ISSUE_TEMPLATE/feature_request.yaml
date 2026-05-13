@@ -4,7 +4,7 @@ title: "(Request): <title>"
 labels: ["feature"]
 assignees: HighSpeed85
 body:
-  - type: checkbox
+  - type: checkboxes
     attributes:
       label: Checklist
       description: Boxes that you can check. Almost like some sort of... checkbox...
