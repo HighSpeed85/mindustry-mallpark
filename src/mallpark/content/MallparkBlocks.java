@@ -54,7 +54,10 @@ public class MallparkBlocks{
 	revolution,
 	
 	// walls
-	copperWallHuge, copperWallGigantic, titaniumWallHuge, titaniumWallGigantic;
+	copperWallHuge, copperWallGigantic, titaniumWallHuge, titaniumWallGigantic,
+	
+	// storage
+	plastaniumUnloader;
 	
 	
 	
@@ -237,5 +240,6 @@ public class MallparkBlocks{
             speed = (60f / 11f) / 11f * 40f;
             group = BlockGroup.transportation;
         }};
+		// endregion
 	}
 }
