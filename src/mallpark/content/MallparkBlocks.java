@@ -237,7 +237,7 @@ public class MallparkBlocks{
 		// region storage
 		plastaniumUnloader = new Unloader("plastanium-unloader"){{
             requirements(Category.distribution, with(Items.plastanium, 20, Items.titanium, 10, Items.silicon, 30));
-            speed = (60f / 11f) / 11f * 40f;
+            speed = 60f / 40f;
             group = BlockGroup.transportation;
         }};
 		// endregion
