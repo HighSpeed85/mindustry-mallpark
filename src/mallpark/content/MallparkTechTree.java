@@ -32,6 +32,14 @@ public class MallparkTechTree {
 		vanillaNode(mechanicalDrill, () -> {
 			node(compactDrill);
 		});
+		
+		vanillaNode(cyclone, () -> {
+			node(revolution);
+		});
+		
+		vanillaNode(unloader, () -> {
+			node(plastaniumUnloader, Seq.with(new Research.plastaniumConveyor));
+		});
 	}
 	
 	// stuff ripped from BetaMindy until i find a more 'vanilla' solution
