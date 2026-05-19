@@ -38,7 +38,8 @@ public class MallparkTechTree {
 		});
 		
 		vanillaNode(unloader, () -> {
-			node(plastaniumUnloader, Seq.with(new Research(plastaniumConveyor)), () -> {};
+			node(plastaniumUnloader, Seq.with(new Research(plastaniumConveyor)), () -> {
+			});
 		});
 	}
 	
