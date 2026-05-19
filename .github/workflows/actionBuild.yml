@@ -1,4 +1,5 @@
-name: Build Mod
+name: .jar Build
+run-name: Build mod .jar (branch ${{github.ref_name}}, ${{github.event_name}})
 
 on: [push, pull_request]
 
